@@ -1,0 +1,313 @@
+
+/*forside css*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body {
+font-family: "Montserrat", bold;
+
+
+}
+
+.{
+	width: 1170px;
+	margin: auto;
+}
+header {
+	background:url(https://i.postimg.cc/BQBw8hdg/Rasmus-Bendtsen-Portfolio.png);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-position:100%;
+	background-size:contain;
+
+
+}
+.nav-area  {
+	float: left;
+	list-style: none;
+	margin-top: 20px;
+	position:fixed;
+
+}
+.nav-area img {
+		float: left;
+		list-style: none;
+		margin-top: -30px;
+
+
+}
+.nav-area li {
+	display: inline-block;
+}
+.nav-area li a {
+	color: black;
+	text-decoration: none;
+	padding: 5px 15px;
+	font-family: "Montserrat",bold;
+	font-size: 16px;
+	text-transform: uppercase;
+
+
+}
+.nav-area li a:hover {
+	background: #989898;
+
+}
+.nav-area logo {
+	float: left;
+	position:static;
+}
+.logo img {
+	width: 15%;
+	padding: 0px 0;
+}
+
+/*about css*/
+
+.gridcontainer {
+	display: grid;
+	grid-template-columns: 1.15fr 1fr 1fr 1fr;
+	grid-template-rows: 0.15fr 1fr 1fr;
+}
+
+
+.about {
+  display: grid;
+	grid-column: 2/4;
+	grid-row: 1/3;
+  padding: 20px 0;
+  min-height: 50vh;
+  align-items: center;
+	margin-top: 100px;
+}
+
+.tekst {
+	display: grid;
+	grid-column: 2/4;
+	grid-row: 3/4;
+	padding: 20px;
+	height: fit-content;
+
+
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about .contents {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: 1fr;
+}
+
+.about .contents img {
+  width: 500px;
+  padding: 7.5px;
+  margin: 0 auto;
+  border-radius: 35%;
+  background-color: #008896;
+}
+
+/*contact css*/
+
+.hero{
+	width:100%;
+	height:100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.2),#3551b5), url(https://i.postimg.cc/RVKgnCYt/IMG-6316.png);
+	background-position:center;
+	background-size:cover;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+form{
+	width: 90%;
+	max-width: 600px;
+}
+
+.input-group{
+	margin-bottom: 30px;
+	position: relative;
+
+}
+input,textarea{
+	width: 100%;
+	padding:10px;
+	outline:0;
+	border:1px solid #fff;
+	color: #fff;
+	background: transparent;
+	font-size: 15px;
+}
+
+ label{
+	height:100%;
+	left:0;
+	top:0;
+	padding:10px;
+	color:#fff;
+	cursor:text;
+}
+
+button{
+	padding: 10px 0;
+	color: #fff;
+	outline:none;
+	background:transparent;
+	border: 1px solid #fff;
+	cursor: pointer;
+}
+
+.aboutmebutton {
+  margin-top: 2rem;
+  background-color: #008896;
+  border: none;
+  color: black;
+  padding: 15px 42px;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 20px;
+  letter-spacing: 0px;
+  justify-content: inline-block;
+
+
+}
+
+/*portfolio css*/
+
+.nav-area1  {
+	float: left;
+	list-style: none;
+	margin-top: 20px;
+	position:absolute;
+
+
+}
+.nav-area1 img {
+		float: left;
+		list-style: none;
+		margin-top: -30px;
+
+
+}
+.nav-area1 li {
+	display: inline-block;
+}
+.nav-area1 li a {
+	color: black;
+	text-decoration: none;
+	padding: 5px 15px;
+	font-family: "Montserrat",bold;
+	font-size: 16px;
+	text-transform: uppercase;
+
+
+}
+.nav-area1 li a:hover {
+	background: #989898;
+
+}
+.nav-area1 logo {
+	float: left;
+	position:static;
+}
+.logo1 img {
+	width: 15%;
+	padding: 0px 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px 20px 0 20px;
+}
+
+.container .heading{
+  width: 50%;
+  padding-bottom: 50px;
+}
+.container .heading h3{
+  font-size: 3em;
+  font-weight: bolder;
+  padding-bottom: 10px;
+	padding: 25px;
+}
+
+.container .heading h3 span{
+  font-weight: 100;
+}
+.container .box{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ column-gap:5px;
+ row-gap:5px;
+}
+
+.container .box .{
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.container .box .gallery img{
+  width: 100%;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+.container .btn{
+  margin: 40px 0 70px 0;
+  background: #222;
+  padding: 15px 40px ;
+  border-radius: 5px;
+}
+
+.container .btn a{
+ color: #fff;
+ font-size: 1.2em;
+ text-decoration: none;
+ font-weight: bolder;
+ letter-spacing: 3px;
+}
+
+.desc{
+  font-family: "Montserrat", bold;
+	padding-bottom: 20px;
+
+}
+
+@media only screen and (max-width: 769px){
+    .container .box{
+   flex-direction: column;
+  }
+
+.container .box .{
+  width: 100%;
+}
+
+}
+
+@media only screen and (max-width: 643px){
+.container .heading{
+  width: 100%;
+	margin-top: 50px;
+}
+.container .heading h3{
+  font-size: 1em;
+
+
+
+/*resposive*/
